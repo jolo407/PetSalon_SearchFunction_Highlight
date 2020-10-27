@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: gray;
+}
+header{
+    background-image: url(../img/PetGroomingBG.jpg);
+    align-items: center;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 200%;
+}
+
+
+.header-txt{ 
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: gray;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.menu{
+    display: block;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.menu a{
+    color: white;
+    font-size: 30px;
+    padding-right: 4%;
+    padding: 2%;
+}
+
+#petSearch{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 110px;
+}
+
+
+.main-txt{
+    color: white;
+}
+
+.main-txt h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.main-txt p{
+    display: block;
+    padding-bottom: 15%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-txt a{
+    color: white;
+}
+
+.main-txt p a:hover{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image1{
+    height: 20rem;
+    width: 405px;
+    padding-left: 30px;
+
+}
+
+.image2{
+    height: 28rem;
+    width: 405px;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.img-fluid{
+    float: left;
+    height: 200px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+.text-right{
+    padding: .16rem 1rem 1rem;
+    color:darkmagenta;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.service-heading{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 24px;
+}
+
+ol{
+    display: block;
+    text-align: center;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+}
+
+
+@media(min-width:768px){
+    .main-txt h2{
+        padding-top: 2rem;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .image1{
+            float: left;
+            height: 19rem;
+        }
+
+    .image2{
+        height: 29rem;
+        float: right;
+        margin-left:39rem;
+        padding-bottom: 5rem;
+        
+    }
+    .main-txt p{
+        text-align: center;
+        padding: 0% 5% 5% 5%;
+        font-size: 20px;
+
+    }
+    #petSearch{
+        width: 10rem;
+    }
+} 
+
+@media(min-width:768px){
+    .img-fluid{
+        height: 320px;
+        float: left;
+        padding-top: 4rem;
+        padding-left: 1rem;
+    }
+    
+    .text-right{
+        padding: 3rem;
+        font-size: 18px;
+        color: darkmagenta
+    }
+    
+    .service-heading{
+        text-align: center;
+        font-size: 28px;
+    }
+}
+
+
+.form-control{
+    background-color: gray;
+    color: orange;
+    font-weight: 600;
+} 
+
+
+.bordered{
+    border:1px solid yellow;
+}
+
+#pets{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+
+}
+.pet{
+    border:1px solid black;
+    padding: 1rem;
+
+}
+.pet h2{
+    font-size: 18px;
+}
+
+
